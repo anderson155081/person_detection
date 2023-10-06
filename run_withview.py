@@ -25,7 +25,6 @@ while True:
         im_array = r.plot()
 
     cv2.imshow('frame', im_array)
-    time.sleep(10)
     
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
