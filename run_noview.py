@@ -23,6 +23,6 @@ while True:
         break
 
     # set the time interval to 3 seconds
-    time.sleep(3)
+    time.sleep(5)
 
 cap.release()
